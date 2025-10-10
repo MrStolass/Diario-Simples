@@ -3,9 +3,9 @@ from tkinter import messagebox
 from datetime import datetime
 from pathlib import Path
 
+#este programa exporta um documento de texto com tudo o que foi escrito nele:
 
 arquivo_diario = Path("diario.txt")
-
 
 def salvar():
     texto = entrada.get("1.0", tk.END).strip()
@@ -20,7 +20,7 @@ def salvar():
     entrada.delete("1.0", tk.END)
     messagebox.showinfo("Salvo", "Entrada adicionada ao diário!")
 
-# Interface
+# -------------------------        Interface
 janela = tk.Tk()
 janela.title("📝 Diário de anotações")
 janela.geometry("500x400")
