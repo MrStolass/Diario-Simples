@@ -32,7 +32,7 @@ def atualizar_contador(event=None):
     conteudo = entrada.get("1.0", tk.END)
     contador.config(text=f"Caracteres: {len(conteudo)-1}")
 
-# Interface
+# Interface do diario e anoações
 janela = tk.Tk()
 janela.title("📝 Diário de anotações")
 janela.geometry("500x450")
