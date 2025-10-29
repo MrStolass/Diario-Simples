@@ -39,6 +39,9 @@ janela.geometry("500x450")
 janela.resizable(False, False)
 janela.configure(bg="#f4f4f4")
 
+# Linha extra só pra Git verde 🤓
+print("Diário iniciado!")  # <-- nova linha adicionada
+
 # --------------------
 titulo = tk.Label(janela, text="DIÁRIO", font=("Helvetica", 18, "bold"), bg="#f4f4f4")
 titulo.pack(pady=10)
