@@ -1,19 +1,19 @@
-# 📝 Diário de Anotações com Persistência Local em Python
+# 🗂️ Rascunhos de Código
 
-Este projeto consiste em uma aplicação desktop para registro de notas e reflexões diárias, desenvolvida em Python. O foco principal foi a criação de uma interface funcional (GUI) e a manipulação de arquivos para armazenamento de dados offline de forma simples e direta.
+Repositório de experimentos, protótipos e scripts variados. Cada pasta ou arquivo representa uma ideia testada, um problema resolvido ou um conceito explorado — sem compromisso com produção, só com aprendizado.
 
+## O que tem aqui
 
-## Tecnologias e Ferramentas
-* **Python 3.x**: Linguagem base do projeto.
-* **Tkinter**: Biblioteca para criação da interface gráfica (GUI).
-* **Pathlib & Datetime**: Gerenciamento de arquivos e carimbos de data/hora (timestamps).
-* **Git**: Controle de versão e organização do fluxo de trabalho.
+Projetos curtos e scripts de propósito geral, cobrindo diferentes linguagens, ferramentas e contextos. Pode ser automação, manipulação de arquivos, interfaces simples, experimentos com APIs, ferramentas de linha de comando ou qualquer coisa que valeu a pena guardar.
 
-## O que foi implementado
-1. **Interface Customizada**: Criação de uma janela com elementos de UX (inputs, botões coloridos e labels) para facilitar o uso.
-2. **Sistema de Persistência**: As anotações são salvas em um arquivo `diario.txt`, preservando o histórico com marcações de tempo precisas (`%Y-%m-%d %H:%M:%S`).
-3. **Contador em Tempo Real**: Implementação de *event binding* (`<KeyRelease>`) para atualizar a contagem de caracteres dinamicamente.
-4. **Customização Visual**: Integração com o `colorchooser` para permitir a troca da cor da fonte pelo usuário.
+## Estrutura
 
+Cada projeto fica na própria pasta com um nome descritivo. Sem padrão rígido — o objetivo é que o nome da pasta já diga o suficiente sobre o que está dentro.
 
----
+## Tecnologias
+
+Sem restrição. Python, Bash, JavaScript, ou o que fizer sentido pra cada ideia.
+
+## Como usar
+
+Navegue pelas pastas, leia o código, adapte o que for útil. Nenhum projeto aqui depende do outro.
